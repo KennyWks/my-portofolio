@@ -1,0 +1,107 @@
+/* Ukuran tablet */
+@media screen and (max-width: 1000px) {
+  .navbar ul {
+    width: 50%;
+  }
+
+  .jumbotron-img {
+    width: 253px;
+  }
+
+  #content {
+    width: 50%;
+  }
+
+  aside {
+    width: 50%;
+  }
+
+  .form-contact {
+    width: 55%;
+  }
+}
+
+/* Ukuran smartphone */
+@media screen and (max-width: 722px) {
+  .navbar ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70%;
+    height: 100vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+    background-color: rgba(120, 104, 230, 0.9);
+    transform: translateX(100%);
+    transition: all 1s;
+    font-weight: 400;
+  }
+
+  .navbar ul.slide {
+    transform: translateX(0);
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .jumbotron {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 550px;
+  }
+
+  .jumbotron img {
+    order: 1;
+  }
+
+  .jumbotron .introduce {
+    order: 2;
+  }
+
+  .jumbotron-description h4 {
+    font-weight: normal;
+    font-size: 1.1em;
+  }
+
+  .jumbotron-description h2 {
+    margin: 10px auto;
+    font-size: 1.5em;
+  }
+
+  .introduce .jumbotron-description {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .btn-skill {
+    padding: 10px;
+    margin: auto 70px;
+  }
+
+  .content-aside {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+
+  #content {
+    width: 100%;
+  }
+
+  aside {
+    width: 90%;
+  }
+
+  aside .card blockquote {
+    margin: auto 20px;
+  }
+
+  .form-contact {
+    width: 70%;
+  }
+}

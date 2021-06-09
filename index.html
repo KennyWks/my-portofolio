@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="navbar-title">
+                    <h4>My Portfolio</h4>
+                </div>
+                <ul class="navbar-menu">
+                    <li><a href="#jumbotron" class="navbar-menu">Home</a></li>
+                    <li><a href="#content" class="navbar-menu">About</a></li>
+                    <li><a href="#contact" class="navbar-menu">Contact</a></li>
+                </ul>
+
+                <div class="menu-toggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="jumbotron" id="jumbotron">
+            <div class="introduce">
+                <div class="jumbotron-description">
+                    <h4>Hallo Three!</h4>
+                    <h2>I AM KENNY PERULU</h2>
+                    <h4>Web & Mobile Programer</h4>
+                </div>
+                <div class="btn-skill">
+                    <a href="https://github.com/KennyWks">See my Github</a>
+                </div>
+            </div>
+            <img src="assets/img/foto.jpg" class="jumbotron-img" alt="profil">
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#e4fbff" fill-opacity="1"
+                d="M0,288L40,245.3C80,203,160,117,240,85.3C320,53,400,75,480,101.3C560,128,640,160,720,186.7C800,213,880,235,960,250.7C1040,267,1120,277,1200,240C1280,203,1360,117,1400,74.7L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
+            </path>
+        </svg>
+        <div class="content-aside">
+            <div id="content" class="content">
+                <h2>My Description</h2>
+                <article>
+                    Hello, welcome! nice to meet you. web programming is a skill that I have learned since I was in
+                    college and although I still have a lot to learn, in recent times I have been working on several
+                    projects related to web-based applications for several small companies in my area.
+                </article>
+                <article>
+                    Finaly as a web programmer, here I describe what skills I have as a web developer. Thanks!</article>
+                <div class="card">
+                    <p>HTML</p>
+                    <div class="container-skill">
+                        <div class="skills html">90%</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>CSS</p>
+                    <div class="container-skill">
+                        <div class="skills css">55%</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>JavaScript</p>
+                    <div class="container-skill">
+                        <div class="skills js">75%</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>PHP</p>
+                    <div class="container-skill">
+                        <div class="skills php">60%</div>
+                    </div>
+                </div>
+            </div>
+            <aside>
+                <div class="card">
+                    <h2 class="">Biodata</h2>
+                    <hr>
+                    <img src="assets/img/foto.jpg" width="90" height="90" class="card-img" alt="profil">
+                    <blockquote>"Good programer write for machine but great programer write for others."</blockquote>
+                    <ul>
+                        <li>
+                            <div class="title">Name</div>
+                            <div>Kenny Alex Nehemia Perulu</div>
+                        </li>
+                        <li>
+                            <div class="title">Address</div>
+                            <div>Jl Timor Raya kota Kupang</div>
+                        </li>
+                        <li>
+                            <div class="title">Phone number</div>
+                            <div>081247569523</div>
+                        </li>
+                        <li>
+                            <div class="title">Email</div>
+                            <div>kenny.perulu@gmail.com</div>
+                        </li>
+
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <div class="contact" id="contact">
+            <h2>Contact me</h2>
+            <hr>
+            <form class="form-contact">
+                <label class="label">Name</label>
+                <input type="text" name="name" id="name">
+                <label class="label">Email</label>
+                <input type="email" name="email" id="email">
+                <label class="label">Message</label>
+                <textarea name="message" rows="5" id="message"></textarea>
+                <button>Send</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        Created with <span>&#9829;</span> by Kenny Perulu
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
